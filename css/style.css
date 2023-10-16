@@ -1,3 +1,14 @@
+:root {
+    /* Colors selected using https://www.realtimecolors.com */
+    /* TODO: Fix contrast issues, should they arise */
+    --text: #03080c;
+    --background: #e3eef7;
+    --primary: #106cb5;
+    --secondary: #cbe0f0;
+    --accent: #357fbb;
+}
+
+
 /* Rules to show and hide "Skip to main content" link */
 .skip {
     position: absolute;
