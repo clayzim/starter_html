@@ -1,0 +1,17 @@
+/* Rules to show and hide "Skip to main content" link */
+.skip {
+    position: absolute;
+    top: -100vh;
+}
+
+.skip:focus {
+    position: static;
+    top: 0;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0.1rem solid #000;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    padding: 0.25rem;
+}
