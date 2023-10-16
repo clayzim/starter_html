@@ -9,6 +9,45 @@
 }
 
 
+/* Rules applied broadly by type of element */
+body {
+    box-sizing: border-box;
+    font-size: 100%;
+    color: var(--text);
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.65rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.75rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+
 /* Rules to show and hide "Skip to main content" link */
 .skip {
     position: absolute;
