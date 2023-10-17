@@ -97,4 +97,63 @@ a.active {
 }
 
 
-/*  */
+/* Laying out pet cards with grid */
+.card {
+    display: grid;
+    grid-template-rows: 1fr / 1fr / 3fr / 1fr / 1fr;
+    justify-items: center;
+    align-items: center;
+
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+.card h2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.card img {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card > section {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card > h3 {
+    grid-row: 4 / span 1;
+}
+
+.card > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    line-height: 2.25rem;
+}
+
+/* Styles for pill shape enclosing text */
+/* TODO: Reuse for navigation menu */
+.card > ul > li {
+    margin: 0.5rem 0;
+    padding: 0.05rem 1rem;
+    text-align: center;
+    border: 0.1rem solid var(--accent);
+    border-radius: 1rem;
+    background-color: var(--background);
+    color: var(--text)
+}
