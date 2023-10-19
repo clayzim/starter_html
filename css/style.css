@@ -16,6 +16,7 @@ body {
     color: var(--text);
     background-color: var(--background);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 120%;
 }
 
 img {
@@ -28,7 +29,7 @@ h1 {
     font-size: 1.65rem;
     text-align: center;
     font-style: italic;
-    margin-top: 0.75rem;
+    margin: 0.75rem 0;
 }
 
 h2 {
@@ -42,11 +43,22 @@ h3 {
 }
 
 p {
-    margin: 0.5rem;
+    text-indent: 1rem;
+    margin: 1rem;
 }
 
 article {
-    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--primary);
+    color: var(--background);
+    height: auto;
+    margin-bottom: auto;
+    padding: 1rem 0;
+}
+
+main li {
+    list-style: circle;
+    margin: 0.5rem 0.5rem 0.5rem 2rem;
 }
 
 
@@ -96,19 +108,14 @@ a.active {
     color: var(--text)
 }
 
-
-/* Laying out pet cards with grid */
-.card {
+.even-col {
     display: grid;
-    grid-template-columns: 45% 1fr;
-    justify-items: center;
-    align-items: center;
-
-    margin: 1rem;
-    border-radius: 1rem;
-    background-color: var(--primary);
-    color: var(--background);
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 0.5rem;
 }
+
+
 
 /* Styles for pill shape enclosing text */
 /* TODO: Reuse for navigation menu */
