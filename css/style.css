@@ -15,7 +15,7 @@ body {
     font-size: 100%;
     color: var(--text);
     background-color: var(--background);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
     line-height: 120%;
 }
 
