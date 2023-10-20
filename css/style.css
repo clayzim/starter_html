@@ -61,6 +61,14 @@ main li {
     margin: 0.5rem 0.5rem 0.5rem 2rem;
 }
 
+main ul {
+    list-style: disc;
+}
+
+main ol {
+    list-style: decimal;
+}
+
 
 /* Rules to show and hide "Skip to main content" link */
 .skip {
@@ -108,6 +116,8 @@ a.active {
     color: var(--text)
 }
 
+
+/* Reusable even column layout */
 .even-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
