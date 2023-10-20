@@ -216,3 +216,13 @@ body {
     50%{background-position:50% 100%}
     100%{background-position:50% 0%}
 }
+
+@media (prefers-reduced-motion: reduce) {
+    body {
+      /* Stop the animation */
+      -webkit-animation: none;
+         -moz-animation: none;
+           -o-animation: none;
+              animation: none;
+    }
+}
