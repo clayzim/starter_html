@@ -47,6 +47,13 @@ p {
     margin: 1rem;
 }
 
+figcaption {
+    font-size: 0.95rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
 article {
     border-radius: 1rem;
     background-color: var(--primary);
