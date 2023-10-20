@@ -188,29 +188,10 @@ a.active {
 body {
     background: linear-gradient(0deg, var(--gradient), var(--background));
     background-size: 400% 400%;
-
-    -webkit-animation: BackgroundGradient 15s ease infinite;
-       -moz-animation: BackgroundGradient 15s ease infinite;
-         -o-animation: BackgroundGradient 15s ease infinite;
-            animation: BackgroundGradient 15s ease infinite;
+    animation: BackgroundGradient 15s ease infinite;
 }
 
 /* Define background gradient animation with vendor prefixes */
-@-webkit-keyframes BackgroundGradient {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
-@-moz-keyframes BackgroundGradient {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
-@-o-keyframes BackgroundGradient {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
 @keyframes BackgroundGradient {
     0%{background-position:50% 0%}
     50%{background-position:50% 100%}
