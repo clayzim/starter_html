@@ -160,6 +160,8 @@ a.active {
 
 .recipe img {
     grid-column: 2 / span 1;
+    align-self: stretch;
+    object-fit: cover;
 }
 
 .recipe p {
