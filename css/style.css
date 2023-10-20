@@ -130,7 +130,7 @@ a.active {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    row-gap: 0.5rem;
+    row-gap: 1rem;
     margin: 0.5rem;
 }
 
